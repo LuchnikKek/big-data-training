@@ -1154,6 +1154,27 @@ files = [
 ]
 
 [[package]]
+name = "kafka-python"
+version = "2.0.3.dev0"
+description = "Pure Python client for Apache Kafka"
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.extras]
+crc32c = ["crc32c"]
+lz4 = ["lz4"]
+snappy = ["python-snappy"]
+zstd = ["zstandard"]
+
+[package.source]
+type = "git"
+url = "https://github.com/dpkp/kafka-python.git"
+reference = "HEAD"
+resolved_reference = "a6d0579d3cadd3826dd364b01bc12a2173139abc"
+
+[[package]]
 name = "markupsafe"
 version = "2.1.5"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -2291,4 +2312,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a75b3bf9f76ccc90d64d9c61612629a3212ed7a909ca1905e15b4905dbfec067"
+content-hash = "6cc03336b32ffb5a88409f62f237ba3c7806eb3d1fea4389f95388ee228e10e6"
